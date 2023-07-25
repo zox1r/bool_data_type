@@ -17,7 +17,9 @@ bool func(int a, int b) {
     Returns:
       A boolean value indicating whether a is equal to b.
   */
-  return false;
+  return a != b;
 }
 
-void main() {}
+void main() {
+  print(func(4, 4));
+}
