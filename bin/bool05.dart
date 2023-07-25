@@ -1,6 +1,6 @@
 /*
     Create fucntion func
-    Check the logic "The variable "a" is an odd number"
+      
     Args:
         a: int
     Returns:
@@ -16,7 +16,9 @@ bool func(int a) {
     Returns:
       A boolean value indicating whether a is equal to b.
   */
-  return false;
+  return a == 1;
 }
 
-void main() {}
+void main() {
+  print(func(2));
+}
